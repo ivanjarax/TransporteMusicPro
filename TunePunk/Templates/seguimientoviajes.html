@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Seguimiento de Viajes</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <header class="bg-dark text-light py-4">
+    <div class="container">
+      <h1 class="text-center">Dashboard - Seguimiento de Viajes</h1>
+    </div>
+  </header>
+
+  <section class="container mt-5">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h2 class="m-0">Seguimiento de Viajes</h2>
+          <a href="#" class="btn btn-primary">Agregar Viaje</a>
+          <a href="#" class="btn btn-primary">Volver a Inicio</a>
+        </div>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Buscar...">
+          <button class="btn btn-primary" type="button">Buscar</button>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Vehículo</th>
+              <th>Ruta</th>
+              <th>Fecha</th>
+              <th>Hora</th>
+              <th>Estado</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>ABC123</td>
+              <td>001</td>
+              <td>2023-06-15</td>
+              <td>10:00 AM</td>
+              <td>En progreso</td>
+              <td>
+                <a href="#" class="btn btn-primary btn-sm">Editar</a>
+                <a href="#" class="btn btn-danger btn-sm">Eliminar</a>
+              </td>
+            </tr>
+            <tr>
+              <td>DEF456</td>
+              <td>002</td>
+              <td>2023-06-16</td>
+              <td>08:30 AM</td>
+              <td>En espera</td>
+              <td>
+                <a href="#" class="btn btn-primary btn-sm">Editar</a>
+                <a href="#" class="btn btn-danger btn-sm">Eliminar</a>
+              </td>
+            </tr>
+            <tr>
+              <td>GHI789</td>
+              <td>003</td>
+              <td>2023-06-17</td>
+              <td>12:00 PM</td>
+              <td>Completado</td>
+              <td>
+                <a href="#" class="btn btn-primary btn-sm">Editar</a>
+                <a href="#" class="btn btn-danger btn-sm">Eliminar</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-light py-4 mt-5">
+    <div class="container text-center">
+      <p>&copy; 2023 Sistema de Transportes Tune Punk Inc. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
