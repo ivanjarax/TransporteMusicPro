@@ -3,6 +3,5 @@ Proyecto para el ramo de integracion de plataformas, nombre music pro caso trans
 TunePunk
 
 Instrucciones:
-
-    Clonar repositorio en visual studio.
+Clonar repositorio en visual studio.
     
