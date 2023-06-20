@@ -17,7 +17,7 @@ Instrucciones:
     DB_USERNAME=root
     DB_PASSWORD=
     ```
-4. Entrar a la carpeta repositorio<br>
+4. Entrar a la carpeta repositorio:<br>
    ```
    cd TunePunk
    ```
