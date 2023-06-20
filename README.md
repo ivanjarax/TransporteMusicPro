@@ -3,7 +3,7 @@ Proyecto para el ramo de integracion de plataformas 004D, nombre music pro caso 
 TunePunk
 
 Instrucciones:
-1. Clonar repositorio: abrir laragon y escribir lo siguiente
+1. Clonar repositorio: abrir laragon y escribir lo siguiente:
   ```   
   git clone  https://github.com/ivanjarax/TransporteMusicPro 
   ```
