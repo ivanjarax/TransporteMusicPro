@@ -9,7 +9,7 @@ Instrucciones:
   git clone  https://github.com/ivanjarax/TransporteMusicPro 
   ```
 3. Crear una Base en Laragon:
-   Configurar Base de Datos, usuario por default root y la contraseña es vacia.<br>
+   Configurar Base de Datos, usuario por default root y la contraseña es vacia.
    ```
    DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
