@@ -4,7 +4,6 @@ TunePunk
 
 Instrucciones:
 1. Clonar repositorio: abrir laragon y escribir lo siguiente
-   <br
   ```   
   git clone  https://github.com/ivanjarax/TransporteMusicPro 
   ```
